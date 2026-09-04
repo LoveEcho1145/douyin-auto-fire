@@ -76,7 +76,7 @@ docker compose up -d
 
 项目支持任务完成后发送通知到多种平台：
 
-- **[通用 Webhook 配置 →](docs/webhook.md)** - 支持企业微信、飞书、Slack、Discord、Telegram 等任意 Webhook 端点
+- **通用 Webhook 配置** - 支持企业微信、飞书、Slack、Discord、Telegram 等任意 Webhook 端点
 - **钉钉机器人** - 通过环境变量 `DINGTALK_WEBHOOK` 和 `DINGTALK_SECRET` 配置
 
 通知功能完全可选，不配置不影响消息发送。
